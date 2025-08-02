@@ -227,18 +227,9 @@
             height: 2px;
         }
 
-        /* style this page mobile friendly using media queries. Make sure all interactive elements like buttons and links have enough spacing around them to be easily clickable on touchscreens.*/
+        /* Mobile friendly styles */
         @media only screen and (max-width: 768px) {
-            < !-- nav {
-                flex-direction: column;
-                align-items: flex-start;
-                height: auto;
-                width: 100%;
-                margin: 0;
-                padding: 0;
-            }
-
-            -->nav {
+            nav {
                 display: flex;
                 justify-content: space-between;
                 width: 100%;
@@ -251,12 +242,12 @@
                 flex-basis: auto;
             }
 
-            < !-- nav ul {
+            nav ul {
                 flex-direction: column;
                 align-items: flex-start;
             }
 
-            -->nav ul li {
+            nav ul li {
                 margin: 10px 0;
             }
 
@@ -289,8 +280,7 @@
 
             .secondsection {
                 max-width: 100%;
-                < !-- margin: 20px;
-                -->height: 393px;
+                height: 393px;
             }
 
             .secondsection h1 {
@@ -368,11 +358,11 @@
             <div class="left">Sandy's Portfolio</div>
             <div class="right">
                 <ul>
-                    <li><a href="index.html" target="_blank">Home</a></li>
-                    <li><a href="about.html" target="_blank">About</a></li>
-                    <li><a href="services.html" target="_blank">Services</a></li>
-                    <li><a href="projects.html" target="_blank">Projects</a></li>
-                    <li><a href="contact.html" target="_blank">Contact Us</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
                 </ul>
             </div>
         </nav>
@@ -487,16 +477,10 @@
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script>
         var typed = new Typed('#element', {
-            strings: ['Front End Developer', 'Backend Developer', 'Web Developer' ,'C Programmer'],
+            strings: ['Front End Developer', 'Backend Developer', 'Web Developer', 'C Programmer'],
             typeSpeed: 50,
         });
-        window.open('https://github.com/sandeepco');
-        windiw.open('https://www.facebook.com/share/14h5mQEJAe/');
-        window.open('https://x.com/Sandeep86397?t=koWceNVZwgWJTkndiNr7cQ&s=09');
-        window.open('https://www.instagram.com/sandy_six_3?igsh=ZmM0NXptMGp0bjNp');
-        window.open('https://www.linkedin.com/in/sandeep-pramanik-8374561b2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app');
-        $(document).ready(function () {
-            $('.footer-content ul li i').css('visibility', 'visible');
-        })
     </script>
 </body>
+
+</html>
